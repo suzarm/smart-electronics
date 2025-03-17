@@ -178,6 +178,73 @@
     margin-top:30px;
 }
 
+.slider-container {
+    padding: 20px; 
+    width: 100%; 
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    overflow: hidden; 
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+  
+ .swiper-slide img {
+    width:970px;
+    height:580px;
+    padding-top:20px;
+    border-radius: 5px; 
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    font-size: 30px; 
+    background-color: transparent; 
+    padding: 10px; 
+    border-radius: 50%; 
+    position: absolute;
+    top: 55%;
+    z-index: 10;
+    transform: translateY(-50%);
+  }
+
+  .swiper-button-next{
+    right: 82px;
+  }
+  
+  .swiper-button-prev {
+    left: 10px; 
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 494px !important;
+    transform: translateX(-50%); 
+
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 180px;
+    height: 2px;
+    border-radius: 50%;
+    margin:auto;
+    gap:5px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #fff;
+    margin:auto;
+  }
+  
 .main-section{
     width:70%;
     margin:50px auto;
@@ -206,6 +273,11 @@
     transform: scale(1.05); 
 }
 
+.span-img{
+    margin-left:7px;
+    margin-top:4px;
+}
+
 .main-section-cards{
     display:flex;
     gap:10px;
@@ -215,6 +287,7 @@
     width:326px;
     height:596px;
     border:1px solid #EAEAF0;
+    position:relative;
     
 }
 
@@ -222,15 +295,24 @@
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
-.card-new{
+
+.card-new,
+.card-hot-only{
     float:right;
     margin-top:5px;
+    margin-right:7px;
+}
+
+.card-hot{ 
+    position:absolute;
+    top:45px;
+    right: 7px;;
 }
  
 .card-img{
     width:80%;
     display:block;
-    margin:auto;
+    margin: auto;
 }
 
 .main-section-card-content,
@@ -419,11 +501,17 @@
     line-height:35px;
 }
 
+.client-content a:hover,
+.store-content a:hover,
+.footer-link:hover
+{   
+    color:#48A69B;
+}
+
 .client-content a,
 .store-content a,
 .contact-content a{
     font-size:16px;
-    color:#070C11;
     font-weight: 400;
 }
 
@@ -432,6 +520,7 @@
 .contact-content-title{
     color:#838688;
     margin-left: 34px;
+    
 }
 
 .footer-rights{

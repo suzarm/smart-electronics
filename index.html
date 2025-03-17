@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/fontawesome-free-6.7.2-web/css/all.min.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/Exo2-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Smart-Electronics</title>
 </head>
@@ -97,7 +98,7 @@
                 <div class="header-navbar-side-list">
                     <ul class="side-list" style="padding-left:15px;">
                         <li class="side-list">
-                                <a href="" class="side-link">О компании</a>
+                                <a href="#about.html" class="side-link">О компании</a>
                         </li>
                         <li class="side-list">
                                 <a href="" class="side-link">Акции</a>
@@ -115,35 +116,45 @@
                             <a href="" class="side-link">Контакты</a>
                         </li>
                     </ul>
-                     <div class="carousel-container">
-                        <section class="slider-wrapper">
-                            <!-- <button class="slide-arrow" id="slide-arrow-prev">
-                                &#8249;
-                            </button>
-                            <button class="slide-arrow" id="slide-arrow-next">
-                                &#8250;
-                            </button>   -->
-                            <ul class="slides-container" id="slides-container">
-                                <li class="slide">
-                                <img src="./styles/images/slider.png" class="img">
-                                </li>
-                                <!-- <li class="slide"></li>
-                                <li class="slide"></li>
-                                <li class="slide"></li> -->
-                            </ul>
-                        </section>
-                    </div> 
+                    <section class="slider-container">
+                        <div class="slider-wrapper">
+                          <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="./styles/images/slider.png" alt="Slide 1">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./styles/images/slider-2.jpg" alt="Slide 5">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./styles/images/slider-4 (2).jpg" alt="Slide 2">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./styles/images/slider-4.webp" alt="Slide 3">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./styles/images/slider-4 (3).jpg" alt="Slide 4">
+                              </div>
+                              
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                        </div>
+                      </section>               
                 </div> 
             </div>
          </div>
         <div class="main-section">
             <div class="main-section-title">
-                <h2>Хиты продаж</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+                <h2>Хиты продаж</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
             </div>
             <div class="main-section-cards">
                 <div class="main-section-card">
                     <div class="main-section-card-img">
                         <img src="./styles/images/promo.png" class="card-new">
+                        <img src="./styles/images/promo-2.png" class="card-hot">
                         <img src="./styles/images/image 18.png" class="card-img">
                     </div>
                     <div class="main-section-card-content" style="margin-top:20px;">
@@ -181,7 +192,7 @@
                 </div>
                 <div class="main-section-card">
                     <div class="main-section-card-img">
-                        <img src="./styles/images/promo.png" class="card-new">
+                        <img src="./styles/images/promo-2.png" class="card-hot-only">
                         <img src="./styles/images/image 18.png" class="card-img">
                     </div>
                     <div class="main-section-card-content" style="margin-top:20px;">
@@ -220,8 +231,7 @@
                     </div>
                 </div>
                 <div class="main-section-card">
-                    <div class="main-section-card-img">
-                        <img src="./styles/images/promo.png" class="card-new">
+                    <div class="main-section-card-img" style="margin-top:38px;">
                         <img src="./styles/images/image 18.png" class="card-img">
                     </div>
                     <div class="main-section-card-content" style="margin-top:20px;">
@@ -296,12 +306,13 @@
                 </div>
         </div>
         <div class="main-section-title">
-            <h2>Новинки</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+            <h2>Новинки</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
         </div>
         <div class="main-section-cards">
             <div class="main-section-card">
                 <div class="main-section-card-img">
                     <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -339,7 +350,7 @@
             </div>
             <div class="main-section-card">
                 <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot-only">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -378,8 +389,7 @@
                 </div>
             </div>
             <div class="main-section-card">
-                <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                <div class="main-section-card-img" style="margin-top:38px;">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -478,12 +488,13 @@
             </div>
         </div>
         <div class="main-section-title">
-            <h2>Сигвеи</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+            <h2>Сигвеи</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
         </div>
         <div class="main-section-cards">
             <div class="main-section-card">
                 <div class="main-section-card-img">
                     <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -521,7 +532,7 @@
             </div>
             <div class="main-section-card">
                 <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot-only">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -560,8 +571,7 @@
                 </div>
             </div>
             <div class="main-section-card">
-                <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                <div class="main-section-card-img" style="margin-top:38px;">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -636,12 +646,13 @@
             </div>
         </div>
         <div class="main-section-title">
-            <h2>Моноколеса</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+            <h2>Моноколеса</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
         </div>
         <div class="main-section-cards">
             <div class="main-section-card">
                 <div class="main-section-card-img">
                     <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -679,7 +690,7 @@
             </div>
             <div class="main-section-card">
                 <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot-only">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -718,8 +729,7 @@
                 </div>
             </div>
             <div class="main-section-card">
-                <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                <div class="main-section-card-img" style="margin-top:38px;">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -818,12 +828,13 @@
             </div>
         </div>
         <div class="main-section-title">
-            <h2>Электровелосипеды</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+            <h2>Электровелосипеды</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
         </div>
         <div class="main-section-cards">
             <div class="main-section-card">
                 <div class="main-section-card-img">
                     <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -861,7 +872,7 @@
             </div>
             <div class="main-section-card">
                 <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                    <img src="./styles/images/promo-2.png" class="card-hot-only">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -900,8 +911,7 @@
                 </div>
             </div>
             <div class="main-section-card">
-                <div class="main-section-card-img">
-                    <img src="./styles/images/promo.png" class="card-new">
+                <div class="main-section-card-img" style="margin-top:38px;">
                     <img src="./styles/images/image 18.png" class="card-img">
                 </div>
                 <div class="main-section-card-content" style="margin-top:20px;">
@@ -976,7 +986,7 @@
             </div>
          </div>
          <div class="main-section-title">
-            <h2>Новости</h2><span class="span">Все товары <img src="./styles/images/Polygon 1.png"></span>
+            <h2>Новости</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
         </div>
         <div class="main-news-wrapper">
             <div class="main-news-content">
@@ -1086,7 +1096,6 @@
             <div class="social-media">
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-square-facebook"></i>
-
                 <i class="fa-brands fa-instagram"></i>
             </div>
             <span>Разработка: websl.ru</span>
@@ -1104,9 +1113,10 @@
         
      
     
-    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <script src="./script.js"></script>
 
-<script src="./script.js"></script>
 
 </body>
 </html>
@@ -1123,8 +1133,3 @@
 
 
       
-            <!-- <div class="main-header">
-                <div class="main-header-content">
-                    
-                </div>
-            </div> -->
