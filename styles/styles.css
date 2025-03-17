@@ -163,10 +163,7 @@
 }
 
 .side-link:hover{
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     color:#4376A3;
-    font-weight:bold;
 }
 
 .side-list{
