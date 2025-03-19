@@ -1,3 +1,7 @@
+body{
+    font-family: "Exo 2", sans-serif;
+}
+
 .navbar,
 .main-header,
 .header-navbar{
@@ -140,6 +144,7 @@
     align-items:center ;
     gap:10px;
     padding:15px 0;
+    cursor: pointer;
 }
 
 .link-img{
