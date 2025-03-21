@@ -1,8 +1,16 @@
+body{
+    font-family: "Exo 2", sans-serif;
+}
+
 .navbar,
 .wrapper,
 .header-navbar{
     max-width:70%;
     margin:auto;
+}
+
+.wrapper{
+    padding-bottom:100px;
 }
 
 .navbar-content{
@@ -82,7 +90,6 @@
 .header{
     background-color:#0E1821;
     height:60px;
-
 }
 
 .header-navbar-content{
@@ -205,54 +212,157 @@
     margin-left:7px;
 }
 
+.main-section-content-wrapper{
+    display:flex;
+    gap:20px;
+}
+
+.main-section-content-img{
+    width:75%;
+}
+
+.main-section-content-accardion{
+    width:25%;
+}
+
+.page-content{
+    display:block;
+    float:right;
+}
+
+.main-section-title span{
+    color:#838688;
+}
+
+.prev{
+    margin-right:10px;
+}
+
+.prev,
+.next{
+    border:1px solid #EDF2F6;
+    border-radius:50%;
+    padding:12px 15px;
+}
+
+.next{
+    background-color:#EDF2F6 ;
+}
+
 .main-section-cards{
-    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:50px;
+}
+
+ .main-section-card{
+    width:319px;
+    height:596px;
+    border:1px solid #EAEAF0;
+    position:relative;
+}
+
+.main-section-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.remove{
+    text-align:center;
+    color:#F15152;
+}
+ 
+.card-img{
+    width:80%;
+    display:block;
+    margin: auto;
+}
+
+.main-section-card-content,
+.content-stars-content,
+.card-content-footer{
+    padding-inline:20px;
+}
+
+.text{
+    font-size:20px;
+}
+
+.content-stars-content{
+    display:flex;
+    gap:10px;
+}
+
+.text-lined{
+    text-decoration: line-through;
+    color:#838688;
+    font-weight:16px;
+    margin-bottom:0;
+}
+
+.text-bold{
+    font-size:24px;
+    font-weight:700;
+    margin:0;
+}
+
+.card-content-review-footer{
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap:10px;
 }
 
-.main-section-card{
-    width:46%;
-    background-color: #EDF2F6;
+.fa-regular.fa-heart,
+.fa-solid.fa-chart-simple{
+    border:1px solid lightgrey;
+    padding:12px;
+    margin-top:2px;
+    color:#C8CACB;
+}
+
+.orange-card p{
+    width:117px;
+    padding:3px 8px 5px;
+    background-color:#F37748 ;
+    border-radius:50px;
+}
+
+.orange-card b{
+    background-color: white;
+    border-radius:23px;
+    padding:2px;
+}
+
+.btn-section{
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    padding:10px 20px;
-    border-radius:8px;
-    gap:30px;
-    margin-top:30px;
+    align-items:center ;
+    gap: 15px;
 }
 
-.main-section-card-footer{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.main-section-card-footer img{
-    margin-top:3px;
-}
-
-.card-content-h4{
-    font-size:28px;
-    margin-bottom:18px;
-}
-
-.main-section-card-footer a,
-.card-content-p{
-    font-size:16px;
-    margin:0px;
-}
-
-#a-link{
-    color:#070C11;
-    text-decoration: none;
-}
-
-#a-link:hover{
+.btn-card{
+    background-color: white;
+    border:1px solid #4878A6;
     color:#4878A6;
-    font-weight:bold;
+    border-radius:4px;
+    padding:10px;
+    width:228px;
+    margin-top:10px;
+}
+
+.btn-card:hover{
+    background-color: #4376A3;
+    color:white;
+    transform: scale(1.1);
+}
+
+.fa-solid.fa-cart-shopping {
+    background-color: #EDF2F6;
+    border-radius: 4px;
+    color: #2A5275;
+    padding: 12px;
+    margin-top: 10px;
 }
 
 .section-pagination{
@@ -283,6 +393,47 @@
     font-weight:bold;
     font-size: 19px;;
 }
+
+.pagination-more{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    align-items:center;
+}
+
+.pagination-more span{
+    border:2px solid black;
+    border-radius: 50%;
+    padding:1px 5px ;
+    font-weight: 700;
+}
+
+table{
+    width:100%;
+    margin:auto;
+    margin-top:40px;
+    margin-right:10px;
+}
+
+table,tr,td,th{
+    border:none;
+    padding:20px;
+}
+
+th{
+    text-align:left;
+}
+
+select{
+    border:1px solid #EAEAF0;
+    padding:10px;
+    padding-right:140px;
+}
+
+.input-content{
+    margin-top:20px;
+}
+
 
 .footer{
     background-color: #EDF2F6;
@@ -371,9 +522,5 @@
     transform: scale(1.1);
     box-shadow:#4878A6 1.95px 1.95px 2.6px;
 }
-
-
-
-
 
 

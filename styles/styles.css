@@ -135,6 +135,10 @@ body{
     background-color:#4376A3;
 }
 
+.header-link:hover{
+    color:black;
+}
+
 .list-img-title a{
     color:white;
 }
@@ -159,6 +163,7 @@ body{
     font-size:16px;
     padding-top:7px;
 }
+
 
 .side-link{
     color:white;
@@ -371,6 +376,7 @@ body{
     border-radius:23px;
     padding:2px;
 }
+
 .btn-section{
     display:flex;
     justify-content: space-between;
@@ -435,8 +441,13 @@ body{
     font-size:16px;
 }
 
-.main-news-footer-p:hover{
-    color:#2A5275;
+.main-news-footer a{
+    color:#070C11;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#4878A6;
     font-weight:bold;
 }
 
