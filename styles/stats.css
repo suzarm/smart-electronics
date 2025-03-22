@@ -245,7 +245,8 @@ body{
     padding:12px 15px;
 }
 
-.next{
+.next:hover,
+.prev:hover{
     background-color:#EDF2F6 ;
 }
 

@@ -30,13 +30,13 @@
                      <i class="fa-solid fa-magnifying-glass"></i> 
                      Поиск
                 </button>
-                <a href="#view" class="icon-link">
+                <a href="view.html" class="icon-link">
                     <i class="fa-regular fa-eye"></i>
                 </a>
                 <a href="#wishlist" class="icon-link">
                     <i class="fa-regular fa-heart" id="icon-i"></i>
                 </a>
-                <a href="#stats" class="icon-link">
+                <a href="stats.html" class="icon-link">
                     <i class="fa-solid fa-chart-simple" id="icon-i"></i>
                 </a>
                 <a href="#cart" class="icon-link">
@@ -57,13 +57,13 @@
             <div class="header-navbar-side-list">
                 <ul class="side-list" style="padding-left:15px;">
                     <li class="side-list">
-                            <a href="about.html" class="side-link">Новости</a>
+                            <a href="about.html" class="side-link">О компании</a>
                     </li>
                     <li class="side-list">
-                            <a href="" class="side-link">О нас</a>
+                            <a href="" class="side-link">Акции</a>
                     </li>
                     <li class="side-list">
-                            <a href="" class="side-link">Каталог</a>
+                            <a href="" class="side-link">Рассрочка 0|0|18</a>
                     </li>
                     <li class="side-list">
                             <a href="service.html" class="side-link">Сервис и гарантия</a>
@@ -89,7 +89,100 @@
             </div>
             <div class="main-section-content-wrapper">
                 <div class="main-section-content-accardion">
-                    <h2>hjfgjhghjjkhk</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header" style="background-color:#EDF2F6 ;">Цена, ₽ <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                            <div class="price-content">
+                                <span class="input-span">от</span>
+                                <span class="input-span-border">3600</span>
+                                <span class="input-span">до</span>
+                                <span class="input-span-border">17000</span>
+                            </div>
+                            <div class="input-content">
+                                <label for="rangeInput"></label>
+                                 <input type="range" id="rangeInput" min="0" max="100" value="50" step="1">
+                                </label>
+                                <button>Применить</button>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Подсветка <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                <label>
+                                    <input type="checkbox"><span>Есть</span><span class="input-span">(78)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>Нет</span><span class="input-span">(164)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Мощность двигателя (Ватт) <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Максимальная скорость (км/ч) <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" >Подсветка <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                <label>
+                                    <input type="checkbox"><span>Есть</span><span class="input-span">(78)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>Нет</span><span class="input-span">(164)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" >Мощность двигателя (Ватт) <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                <label>
+                                    <input type="checkbox"><span>2100</span><span class="input-span">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>500</span><span class="input-span">(10)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>350</span><span class="input-span">(4)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>300</span><span class="input-span">(3)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>250</span><span class="input-span">(2)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" >Максимальная скорость (км/ч) <img src="./styles/images/Polygon 3.png"></div>
+                            <div class="accordion-content">
+                                <label>
+                                    <input type="checkbox"><span>45</span><span class="input-span">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>32</span><span class="input-span">(10)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>30</span><span class="input-span">(4)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>28</span><span class="input-span">(3)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox"><span>25</span><span class="input-span">(2)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="main-section-content-img">
                     <div class="useful-wrapper">
@@ -686,6 +779,6 @@
         </div>
     </div>
     
-    
+    <script src="./accordion-script.js"></script>
 </body>
 </html>

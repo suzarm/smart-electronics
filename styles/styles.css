@@ -86,7 +86,6 @@ body{
 .header{
     background-color:#0E1821;
     height:60px;
-
 }
 
 .header-navbar-content{
@@ -164,7 +163,6 @@ body{
     padding-top:7px;
 }
 
-
 .side-link{
     color:white;
     text-decoration: none;
@@ -235,8 +233,7 @@ body{
     bottom: 10px;
     left: 494px !important;
     transform: translateX(-50%); 
-
-  }
+}
   
   .swiper-pagination-bullet {
     background-color: rgba(255, 255, 255, 0.5);
